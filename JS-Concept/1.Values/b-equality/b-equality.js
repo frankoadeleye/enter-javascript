@@ -22,6 +22,7 @@ let JamesObj = {};
 /*
 TASK: 
 */
+/*
 let banana = {};
 let cherry = banana;
 let chocolate = cherry;
@@ -34,3 +35,10 @@ let chocolate = cherry;
 console.log(Object.is(banana,cherry));//false
 console.log(Object.is(cherry,chocolate));//false
 console.log(Object.is(chocolate,banana));//true
+*/
+
+//NAN
+console.log(NaN === NaN); //false (talks about a number on the spectrum of complex numbers, and since we cannot be sure that the first NaN is a number same as the other NaN,then we say false to be on the safer side).
+console.log(Object.is(NaN,NaN)); //true
+
+console.log(typeof NaN);
