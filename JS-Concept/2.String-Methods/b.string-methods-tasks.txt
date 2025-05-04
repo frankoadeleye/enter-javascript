@@ -1,0 +1,31 @@
+Task:
+Given the string productCode with the value "XYZ-12345-ABC", how would you write the code to find the index where the pattern containing a hyphen, five digits, and another hyphen first occurs?
+
+Task:
+Given the string dateString with the value "2023-10-26", how would you write the code to extract just the first four characters (representing the year)?
+
+Task:
+Given the string fruitsList with the value "apple,banana,orange", how would you write the code to separate the string into an array of individual fruit names?
+
+Task:
+Given the string mixedCase with the value "CoNvErT tHiS tO lOwEr CaSe", how would you write the code to get a new string where all characters are converted to lower case?
+
+Task:
+Given the string statusMessage with the value "error: file not found", how would you write the code to get a new string where all characters are converted to upper case?
+
+Here are 5 additional tasks:
+
+Task:
+Given the string paddedString with the value "   whitespace_around   ", how would you write the code to get a new string with the extra space removed from both the beginning and the end?
+
+Task:
+Given the string sentence with the value "The quick brown fox jumps over the lazy dog.", how would you write the code to check if the word "jumps" is present anywhere within the string?
+
+Task:
+Given the string url with the value "https://example.com", how would you write the code to verify if the URL starts with the characters "https://"?
+
+Task:
+Given the string animalSentence with the value "I like cats and dogs.", how would you write the code to get a new string where the first occurrence of the word "cats" is replaced by the word "birds"?
+
+Task:
+Given the string word with the value "Programming", how would you write the code to get the single character that is located at the fourth position (keeping in mind that the first position is index 0)?
