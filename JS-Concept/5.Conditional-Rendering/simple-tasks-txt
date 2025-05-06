@@ -1,0 +1,30 @@
+1
+Write a code snippet that declares a variable isSunny (a boolean). If isSunny is true, log "It's a sunny day!" to the console.
+1:01
+2
+Create a program that checks a variable temperature. If the temperature is above 30, log "It's hot!"; otherwise, log "It's not too hot."
+1:02
+3
+Write a program using if else statements that declares a variable of value type number. First, check if the number is non-zero. If it is non-zero (that is greater than or less than zero), then check whether it’s positive or negative. Log an appropriate message for each case. If it is zero, log "The number is zero."
+clue:
+' > ' means greater than
+' < ' means lesser than
+' !== ' means not equal to
+' === ' means equal to
+FOR EXAMPLE OF HOW TO USE:
+if (myVal > 10){ ... do this and that ....}
+
+4
+Write a code snippet that declares a variable temperature (a number). If temperature is greater than 30, log "It's hot!" to the console. Otherwise, log "It's not hot.".
+
+5
+Write a code snippet that declares two variables: isLoggedIn (a boolean) and isAdmin (a boolean). If isLoggedIn is true, check if isAdmin is also true. If both are true, log "Welcome, Admin!". If only isLoggedIn is true, log "Welcome, User!".
+
+6
+Write a code snippet that declares a variable dayOfWeek (a string, e.g., "Monday", "Tuesday"). Use a switch statement to log a different message for each day from Monday to Friday (e.g., "Start of the week!", "Midweek blues!", "Weekend is coming!"). For any other value, log "Invalid day.".
+
+7
+Write a code snippet that declares a variable score (a number between 0 and 100). Log "Excellent" if the score is 90 or above, "Very Good" if the score is between 80 and 89, "Good" if the score is between 70 and 79, and "Pass" if the score is between 60 and 69. Otherwise, log "Fail".
+
+8
+Write a code snippet that declares a variable trafficLightColor (a string, e.g., "red", "yellow", "green"). If the color is "red", log "Stop". If the color is "yellow", log "Prepare to stop". If the color is "green", log "Go". Use either a nested if structure or a switch statement to achieve this.
