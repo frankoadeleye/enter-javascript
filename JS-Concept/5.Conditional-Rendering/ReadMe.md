@@ -49,3 +49,44 @@ if(favouriteFruit === "blackberry"){
   console.log("I don't know my favorite fruit");
 }
 
+3. NESTED IF STATEMENTS: These are if statements nested inside one another.
+let person = {
+  name: "Ephraim",
+  sibling: true,
+  age: 18,
+  favoriteFood: "Egg sauce & yam"
+}
+
+if(person.name === "Ephraim"){
+  if(person.favoriteFood === "Egg sauce & yam"){
+    if(person.age === 18){
+      console.log("A")
+    }else{
+      console.log("B");
+    }
+  }else{
+    console.log("C")
+  }
+}else{
+  console.log("D");
+}
+
+4. SWITCH STATEMENT: This is a cleaner way of presenting multiple if..else statements:
+
+
+let crayonColor = "red";
+
+switch (crayonColor){
+  case "red":
+    console.log("Using the red Crayon");
+    break;
+  case "blue":
+    console.log("Using the blue crayon");
+    break;
+  case "green":
+    console.log("Using the green crayon");
+    break;
+  default:
+    console.log("I don't know which crayon to use");
+}
+

@@ -1,24 +1,34 @@
+/*
 
-let favouriteFruit = "Mangoes";
+let crayonColor = "red";
 
-let age = 20;
-let siblings = 5;
-let result;
-
-if(favouriteFruit === "blackberry"){
-  result = age * siblings;
-  console.log(result);
-}else if(favouriteFruit === "Gauva"){
-  result = age - siblings;
-  console.log(result);
-}else if(favouriteFruit === "Apple"){
-  result = age + siblings;
-  console.log(result);
-}else if(favouriteFruit === "Mangoes"){
-  result = age / siblings;
-  console.log(result);
-}else{
-  console.log("I don't know my favorite fruit");
+switch (crayonColor){
+  case "red":
+    console.log("Using the red Crayon");
+    break;
+  case "blue":
+    console.log("Using the blue crayon");
+    break;
+  case "green":
+    console.log("Using the green crayon");
+    break;
+  default:
+    console.log("I don't know which crayon to use");
 }
+*/
 
+
+
+let score = 90
+if(score >= 90){
+    console.log("Excellence");
+}else if(score >= 80 && score <= 89){
+    console.log("Very Good");
+}else if(score = 70-79){
+    console.log(" Good");
+}else if(score = 60-69){
+    console.log("pass");
+}else{
+    console.log("fail")
+}
 
