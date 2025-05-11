@@ -90,3 +90,40 @@ switch (crayonColor){
     console.log("I don't know which crayon to use");
 }
 
+5. TERNARY OPERATOR: this can be used to replace if...else in some straghtforward cases. It is therefore paramount that you understand its use.
+
+let backFromSchool = true;
+let message = backFromSchool ? "Time to eat":"Time to study";
+console.log(message);
+
+6. THE AMPERSAND: This is used to avoid if...else statements as much as possible:
+
+
+let hasRedCrayon = true;
+let isCrayonSharp = false;
+
+if(hasRedCrayon){
+  if(isCrayonSharp === true){
+    console.log("whatever")
+  }
+}
+//shorter way
+if(hasRedCrayon && isCrayonSharp === true){
+
+}
+
+7. BARS: used to mean one or the other. ATLEAST one must be true for it to work:
+
+let hasRedCrayon = true;
+let isCrayonSharp = false;
+
+if(hasRedCrayon){
+  console.log("whatever")
+}
+if(isCrayonSharp === true){
+  console.log("whatever")
+}
+//shorter way
+if(hasRedCrayon || isCrayonSharp === true){
+ console.log("whatever")
+}
